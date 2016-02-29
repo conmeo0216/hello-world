@@ -1,0 +1,29 @@
+git status : trang thai hien tai branch, files thay doi.
+
+
+
+To create a new branch use
+
+git branch <branch-name>
+To see a list of all branches in the current repository type
+
+git branch
+If you want to switch to another branch you can use
+
+git checkout <branch-name>
+To create a new branch and switch to it in one step
+
+git checkout -b <branch-name>
+To delete a branch, use
+
+git branch -d <branch-name>
+To create a branch with the changes from the current branch, do
+
+git stash
+git stash branch <branch-name>
+
+
+$ git checkout -b feature_branch_name //create and switch to feature_branch_name
+... edit files, add and commit ...
+$ git push -u origin feature_branch_name // origin’ is the name of default remote in Git repository. -u is short for --set-upstream
+	
