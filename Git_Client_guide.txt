@@ -26,4 +26,4 @@ git stash branch <branch-name>
 $ git checkout -b feature_branch_name //create and switch to feature_branch_name
 ... edit files, add and commit ...
 $ git push -u origin feature_branch_name // origin’ is the name of default remote in Git repository. -u is short for --set-upstream
-	
+
